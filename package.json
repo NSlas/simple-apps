@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "nodemon app",
     "start": "node app",
-    "test": "jest --coverage --forceExit testing/",
-    "test:coverage": "jest --coverage testing/"
+    "test": "jest --forceExit testing/",
+    "test:coverage": "jest --coverage --forceExit testing/"
   },
   "author": "Moch Rafi Riadi",
   "license": "ISC",
