@@ -1,0 +1,6 @@
+.dockerignore
+node_modules
+package-loack.jason
+sonar-project.properties
+testing
+database
