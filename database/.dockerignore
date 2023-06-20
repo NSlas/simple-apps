@@ -1,4 +1,6 @@
 .dockerignore
+Dockerfile
+coverage
 node_modules
 package-loack.jason
 sonar-project.properties
