@@ -1,0 +1,6 @@
+services:
+  apps:
+    build: ./apps
+    ports:
+      - "10000:3000"
+    restart: always
