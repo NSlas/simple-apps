@@ -5,3 +5,9 @@ services:
       - "10000:3000"
     restart: always
     env_file: ./apps/.env
+
+  proxy:
+    build: ./proxy
+    ports:
+      - "80:80"
+    restart: always
